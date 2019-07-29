@@ -4,14 +4,65 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+	<h3 style="background-color:green; text-align: center">Locate me</h3>
+	<!-- <div class="col-4">
+	<div id="googleMap" style="width:25%;height:400px; background-color:grey;"></div>
 
-<body>
+<script>
+	// Initialize and add the map
+function initMap() 
+{
+	//The location of gearbox
+	var gearbox = {Lat: -1.28333, Lng: 36.81667};
+	// The map, centered at Gearbox
 
+	 var map = new google.maps.Map(document.getElementById('map'), {zoom: 4, center: gearbox});
+// The marker, positioned at Gearbox
+
+var marker = new google.maps.Marker({position: Gearbox, map: map});
+}
+</script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=http://maps.googleapis.com/&callback=initMap">
+    </script> -->
+<!-- </div> -->
+<div class="row" style="background-color: grey;">
+<div class="col-6">
+	<h3>Physical Adress</h3>
+
+	<span class="fa-stack" style="font-size: 15px;color: black;">
+		<i class="fa fa-globe-africa"></i>
+	</span>
+
+	
+	<p>
+		P.O Box, 7658-00200
+		Nairobi
+	</p>	
+</div>
+</div>
+<div class="col-3">
+	
+</div>
+
+<!-- // var mapProp= {
+//   center:new google.maps.LatLng(51.508742,-0.120850),
+//   zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+// var marker = new google.maps.Marker({position: myCenter});
+
+// marker.setMap(map); 
+// } -->
+<!-- </script> -->
+
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script> -->
 
 </body>
 </html> 
